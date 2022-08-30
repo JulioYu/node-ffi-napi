@@ -25,12 +25,14 @@
     "node": ">=10"
   },
   "main": "./lib/ffi",
+  "peerDependencies": {
+    "ref-napi": "git+https://github.com/JulioYu/ref-napi.git"
+  },
   "dependencies": {
     "debug": "^4.1.1",
     "get-uv-event-loop-napi-h": "^1.0.5",
     "node-addon-api": "^3.0.0",
     "node-gyp-build": "^4.2.1",
-    "ref-napi": "git+https://github.com/JulioYu/ref-napi.git",
     "ref-struct-di": "^1.1.0"
   },
   "devDependencies": {
